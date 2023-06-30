@@ -1,1 +1,21 @@
 
+
+Python
+import json
+
+class SearchEngine:
+  """A class that represents a search engine."""
+
+  def __init__(self, text_snippets):
+    """Initializes the search engine with the given text snippets."""
+    self.text_snippets = text_snippets
+
+  def get_unique_text_snippets(self, search_query):
+    """Gets a list of all the unique text snippets that contain the given search query."""
+    unique_text_snippets = []
+    for text_snippet in self.text_snippets:
+      if search_query in text_snippet:
+        unique_text_snippets.append(text_snippet)
+    return unique_text_snippets
+
+
