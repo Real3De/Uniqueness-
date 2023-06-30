@@ -1,1 +1,13 @@
 
+JSON
+[
+  {
+    "text": "This is a unique text snippet."
+  },
+  {
+    "text": "This is another unique text snippet."
+  },
+  {
+    "text": "This is a third unique text snippet."
+  }
+]
