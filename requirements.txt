@@ -1,1 +1,34 @@
 
+
+
+To run the search engine, you will need to have the following Python dependencies installed:
+
+Flask
+requests
+json
+Usage
+To run the search engine, you can simply run the following command:
+
+python uniqueness.py
+
+The search engine will then start running on port 5000. You can then access the search engine by visiting the following URL in your web browser:
+
+http://localhost:5000/
+
+Code snippet
+
+## Example
+
+To search for the word "unique", you can simply pass in the following search query:
+
+Use code with caution. Learn more
+http://localhost:5000/?q=unique
+
+The search engine will then return a list of all the unique text snippets that contain the word "unique".
+
+requirements.txt
+
+Code snippet
+Flask==1.1.2
+requests==2.26.0
+json==2.0.3
